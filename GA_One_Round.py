@@ -267,8 +267,10 @@ p_sorted = float(sys.argv[5])
 has_hungary = float(sys.argv[6])
 nb_thresh = int(sys.argv[7])
 population_size = 10 * nb_thresh
-data_range = int(sys.argv[8])
-run_range = int(sys.argv[9])
+data_start = int(sys.argv[8])
+data_range = int(sys.argv[9])
+run_range = int(sys.argv[10])
+
 pc = 0.8
 while index < data_range:
     print("Data Set ", index)
