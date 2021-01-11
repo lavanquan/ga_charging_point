@@ -272,7 +272,8 @@ data_range = int(sys.argv[9])
 run_range = int(sys.argv[10])
 
 pc = 0.8
-while index < data_range:
+index = data_start
+while index < data_start + data_range:
     print("Data Set ", index)
     #  open file for write data
     file_name = "ga_one_round/" + write_name + str(index) + ".csv"
